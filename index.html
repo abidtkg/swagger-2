@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>Swagger OAS2</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div id="swagger-ui"></div>
+<script src="jquery-2.1.4.min.js"></script>
+<script src="swagger-bundle.js"></script>
+<script type="application/javascript">
+    const ui = SwaggerUIBundle({
+        url: "swagger.yaml",
+        dom_id: '#swagger-ui',
+    });
+</script>
+</body>
+</html>
